@@ -1,8 +1,8 @@
 {
   "name": "wordpress-theme-pwa",
-  "version": "1.0.0",
+  "version": "9.1.1",
   "main": "index.js",
   "repository": "https://github.com/listingslab-software/wordpress-theme-pwa.git",
-  "author": "Chris Dorward <listingslab@gmail.com>",
+  "author": "listingslab <listingslab@gmail.com>",
   "license": "MIT"
 }
