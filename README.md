@@ -5,5 +5,5 @@ Always Free. Always Open Source, the WordPress theme used on [listingslab](https
 
 ## Usage
 
-- Download zip
+- Download [latest.zip](./latest.zip)
 - Install to WordPress as you would any theme
