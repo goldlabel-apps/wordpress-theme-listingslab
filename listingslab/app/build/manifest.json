@@ -1,0 +1,45 @@
+{
+  "short_name": "WordPress PWA",
+  "name": "WordPress Theme PWA",
+  "description": "Progressive WordPress App",
+  "start_url": ".",
+  "theme_color": "#18a2ad",
+  "background_color": "#136c73",
+  "display": "standalone",
+  "lang": "en-US",
+  "icons": [
+    {
+      "sizes": "1024x1024",
+      "src": "png/web-app-icon/web-app-icon-masked-1024x1024.png",
+      "type": "image/png"
+    },
+    {
+      "sizes": "512x512",
+      "src": "png/web-app-icon/web-app-icon-masked-512x512.png",
+      "type": "image/png"
+    },
+    {
+      "sizes": "192x192",
+      "src": "png/web-app-icon/web-app-icon-masked-192x192.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "maskable",
+      "sizes": "1024x1024",
+      "src": "png/web-app-icon/web-app-icon-maskable-1024x1024.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "maskable",
+      "sizes": "512x512",
+      "src": "png/web-app-icon/web-app-icon-maskable-512x512.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "maskable",
+      "sizes": "192x192",
+      "src": "png/web-app-icon/web-app-icon-maskable-192x192.png",
+      "type": "image/png"
+    }
+  ]
+}
