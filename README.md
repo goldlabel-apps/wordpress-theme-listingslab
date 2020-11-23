@@ -1,7 +1,7 @@
 
 # WordPress Theme PWA
 
-Always Free. Always Open Source, the WordPress theme used on [listingslab](https://listingslab.com)  can be cloned from GitHub now.
+Always Free. Always Open Source, the WordPress theme used on [listingslab](https://listingslab.com)  can be cloned from GitHub now
 
 ## Usage
 
