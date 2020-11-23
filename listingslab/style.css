@@ -1,10 +1,10 @@
 /*
-Theme Name: Listingslab 9.1.1
+Theme Name: Listingslab 9.1.3
 Theme URI: https://listingslab.com/work/wordpress/theme
 Author: Listingslab Software
 Author URI: https://listingslab.com/work/wordpress/theme/
 Description: WordPress Theme with Progressive Web App enhancements
-Version: 9.1.1
+Version: 9.1.3
 Requires at least: 4.7
 Requires PHP: 5.2.4
 License: GNU General Public License v2 or later
@@ -155,7 +155,7 @@ dfn {
 }
 
 mark {
-	background-color: #eee;
+	/*background-color: #eee;*/
 	color: #222;
 }
 
@@ -331,7 +331,7 @@ template {
 }
 
 .screen-reader-text:focus {
-	background-color: #f1f1f1;
+	/*background-color: #f1f1f1;*/
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
 	-webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
@@ -571,7 +571,7 @@ acronym {
 
 mark,
 ins {
-	background: #eee;
+	/*background: #eee;*/
 	text-decoration: none;
 }
 
@@ -1019,7 +1019,7 @@ input[type="checkbox"] + label {
 button,
 input[type="button"],
 input[type="submit"] {
-	background-color: #222;
+	/*background-color: #222;*/
 	border: 0;
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
@@ -1049,7 +1049,7 @@ input[type="reset"],
 input[type="button"].secondary,
 input[type="reset"].secondary,
 input[type="submit"].secondary {
-	background-color: #ddd;
+	/*background-color: #ddd;*/
 	color: #222;
 }
 
@@ -1103,7 +1103,7 @@ input[type="submit"].secondary:focus {
 --------------------------------------------------------------*/
 
 hr {
-	background-color: #bbb;
+	/*background-color: #bbb;*/
 	border: 0;
 	height: 1px;
 	margin-bottom: 1.5em;
@@ -1578,7 +1578,7 @@ body {
 }
 
 .site-header {
-	background-color: #fafafa;
+	/*background-color: #fafafa;*/
 	position: relative;
 }
 
@@ -1731,7 +1731,7 @@ body:not(.title-tagline-hidden) .site-branding-text {
 }
 
 .wp-custom-header .wp-custom-header-video-button { /* Specificity prevents .color-dark button overrides */
-	background-color: rgba(34, 34, 34, 0.5);
+	/*background-color: rgba(34, 34, 34, 0.5);*/
 	border: 1px solid rgba(255, 255, 255, 0.6);
 	color: rgba(255, 255, 255, 0.6);
 	height: 45px;
@@ -1893,7 +1893,7 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 --------------------------------------------------------------*/
 
 .site-content-contain {
-	background-color: #fff;
+	/*background-color: #fff;*/
 	position: relative;
 }
 
@@ -2013,7 +2013,7 @@ body.page:not(.listingslab-front-page) .entry-title {
 
 .prev.page-numbers,
 .next.page-numbers {
-	background-color: #ddd;
+	/*background-color: #ddd;*/
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
 	display: inline-block;
@@ -2033,7 +2033,7 @@ body.page:not(.listingslab-front-page) .entry-title {
 .prev.page-numbers:hover,
 .next.page-numbers:focus,
 .next.page-numbers:hover {
-	background-color: #767676;
+	/*background-color: #767676;*/
 	color: #fff;
 }
 
@@ -2118,7 +2118,7 @@ body:not(.listingslab-front-page) .entry-header {
 }
 
 .single-featured-image-header {
-	background-color: #fafafa;
+	/*background-color: #fafafa;*/
 	border-bottom: 1px solid #eee;
 }
 
@@ -2192,7 +2192,7 @@ body:not(.listingslab-front-page) .entry-header {
 }
 
 .entry-footer .edit-link a.post-edit-link {
-	background-color: #222;
+	/*background-color: #222;*/
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
 	-webkit-box-shadow: none;
@@ -2211,7 +2211,7 @@ body:not(.listingslab-front-page) .entry-header {
 
 .entry-footer .edit-link a.post-edit-link:hover,
 .entry-footer .edit-link a.post-edit-link:focus {
-	background-color: #767676;
+	/*background-color: #767676;*/
 }
 
 /* Post Formats */
@@ -2361,7 +2361,7 @@ body:not(.listingslab-front-page) .entry-header {
 }
 
 .social-navigation a {
-	background-color: #767676;
+	/*background-color: #767676;*/
 	-webkit-border-radius: 40px;
 	border-radius: 40px;
 	color: #fff;
@@ -2374,7 +2374,7 @@ body:not(.listingslab-front-page) .entry-header {
 
 .social-navigation a:hover,
 .social-navigation a:focus {
-	background-color: #333;
+	/*background-color: #333;*/
 }
 
 .social-navigation .icon {
@@ -2969,7 +2969,7 @@ p > object:only-child {
 .site-content .wp-playlist-light .wp-playlist-item:hover,
 .site-content .wp-playlist-light .wp-playlist-item:focus {
 	border-bottom-color: rgba(0, 0, 0, 0);
-	background-color: #767676;
+	/*background-color: #767676;*/
 	color: #fff;
 }
 
@@ -2987,7 +2987,7 @@ p > object:only-child {
 }
 
 .site-content .wp-playlist-dark .mejs-container .mejs-controls {
-	background-color: #333;
+	/*background-color: #333;*/
 }
 
 .site-content .wp-playlist-dark .wp-playlist-caption {
@@ -3003,7 +3003,7 @@ p > object:only-child {
 }
 
 .site-content .wp-playlist-dark .wp-playlist-playing {
-	background-color: #333;
+	/*background-color: #333;*/
 }
 
 .site-content .wp-playlist-dark .wp-playlist-item {
@@ -3015,7 +3015,7 @@ p > object:only-child {
 .site-content .wp-playlist-dark .wp-playlist-item:hover,
 .site-content .wp-playlist-dark .wp-playlist-item:focus {
 	border-bottom-color: rgba(0, 0, 0, 0);
-	background-color: #aaa;
+	/*background-color: #aaa;*/
 	color: #222;
 }
 
