@@ -1,10 +1,10 @@
 /*
-Theme Name: Listingslab 9.1.6
+Theme Name: Listingslab 9.1.9
 Theme URI: https://listingslab.com/work/wordpress/theme
 Author: Listingslab Software
 Author URI: https://listingslab.com/work/wordpress/theme/
 Description: WordPress Theme with Progressive Web App enhancements
-Version: 9.1.6
+Version: 9.1.9
 Requires at least: 4.7
 Requires PHP: 5.2.4
 License: GNU General Public License v2 or later
@@ -1561,7 +1561,7 @@ body {
 }
 
 .site-header {
-	background-color: #fafafa;
+	background-color: #fff;
 	position: relative;
 }
 
@@ -2101,8 +2101,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
 }
 
 .single-featured-image-header {
-	background-color: #fafafa;
-	border-bottom: 1px solid #eee;
+	background-color: #fff;
+	border-bottom: 1px solid #fff;
 }
 
 .single-featured-image-header img {
