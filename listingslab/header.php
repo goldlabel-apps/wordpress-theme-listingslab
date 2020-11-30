@@ -16,7 +16,7 @@
  $tagline = get_bloginfo( 'description' );
  $title = get_bloginfo( 'name' ) . ' ' . get_the_title();
  $description = strip_tags(get_the_excerpt());
- $image = get_template_directory_uri() . '/app/build/png/open-graph.png';
+ $image = get_template_directory_uri() . '/widget/build/png/open-graph.png';
  if( has_post_thumbnail() ) {
  	$image = get_the_post_thumbnail_url( get_queried_object_id() );
  }
@@ -28,11 +28,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<link rel="manifest" href="<?php echo get_template_directory_uri() 
-	. '/app/build/manifest.json'; ?>" />
+	. '/widget/build/manifest.json'; ?>" />
 	<meta name="theme-color" content="#18a2ad" />
 	<link rel="apple-touch-icon"
 	  href="<?php echo get_template_directory_uri() 
-		. '/app/build/png/apple-touch/apple-touch-icon-180x180.png'; ?>"
+		. '/widget/build/png/apple-touch/apple-touch-icon-180x180.png'; ?>"
 	/>
 	<meta name="description" content="<?php echo $description;?>"/>
 	<meta property="og:site_name" content="<?php echo $site;?>" />
