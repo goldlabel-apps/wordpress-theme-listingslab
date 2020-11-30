@@ -2,7 +2,7 @@
   "short_name": "WordPress PWA",
   "name": "WordPress Theme PWA",
   "description": "Progressive WordPress App",
-  "start_url": "https://listingslab.com/",
+  "start_url": "/",
   "theme_color": "#18a2ad",
   "background_color": "#136c73",
   "display": "standalone",

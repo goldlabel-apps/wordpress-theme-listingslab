@@ -13,6 +13,21 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<!-- .entry-header -->
+	<div class="entry-content">
+		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		<?php
+			the_content();
+			wp_link_pages(
+				array(
+					'before' => '<div class="page-links">' . __( 'Pages:', 'listingslab' ),
+					'after'  => '</div>',
+				)
+			);
+		?>
+		<?php listingslab_edit_link( get_the_ID() ); ?>
+	</div><!-- .entry-content -->
+
 	<header class="entry-header">
 		
 		<div class="pwa-button">
@@ -24,18 +39,7 @@
 			<?php dynamic_sidebar( 'sidebar-1' ); ?>
 		</div>
 
-	</header><!-- .entry-header -->
-	<div class="entry-content">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-		<?php
-			the_content();
-			wp_link_pages(
-				array(
-					'before' => '<div class="page-links">' . __( 'Pages:', 'listingslab' ),
-					'after'  => '</div>',
-				)
-			);
-			?>
-		<?php listingslab_edit_link( get_the_ID() ); ?>
-	</div><!-- .entry-content -->
+	</header>
+
+	
 </article><!-- #post-<?php the_ID(); ?> -->
