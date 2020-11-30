@@ -16,11 +16,11 @@ class Listingslab_Widget extends WP_Widget {
     }
  
     function widget( $args, $instance ) {
-        $html = file_get_contents(get_template_directory_uri() . '/app/build/index.html');
+        $html = file_get_contents(get_template_directory_uri() . '/widget/build/index.html');
         $html = str_replace('href="/static', 'href="'. get_template_directory_uri() .
-            '/app/build/static', $html);
+            '/widget/build/static', $html);
         $html = str_replace('src="/static', 'src="'. get_template_directory_uri() .
-            '/app/build/static', $html);
+            '/widget/build/static', $html);
         // echo ;
         echo $html;
     }

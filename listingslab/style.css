@@ -446,7 +446,7 @@ h5 {
 	font-size: 13px;
 	font-size: 0.8125rem;
 	letter-spacing: 0.15em;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 h6 {
@@ -1563,7 +1563,7 @@ body {
 	letter-spacing: 0.08em;
 	margin: 0;
 	padding: 0;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 .site-title,
@@ -1816,7 +1816,7 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 .twentyseventeen-front-page .panel-content .recent-posts article {
 	border: 0;
 	color: #333;
-	margin-bottom: 3em;
+	/*margin-bottom: 3em;*/
 }
 
 .recent-posts .entry-header {
@@ -1883,7 +1883,7 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 	font-size: 0.875rem;
 	/*font-weight: 800;*/
 	letter-spacing: 0.14em;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 .entry-header .entry-title {
@@ -1907,7 +1907,7 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 	/*font-weight: 800;*/
 	letter-spacing: 0.1818em;
 	padding-bottom: 0.25em;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 .entry-meta a {
@@ -2117,7 +2117,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 	letter-spacing: 0.1818em;
 	padding-left: 2.5em;
 	position: relative;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 .entry-footer .cat-links + .tags-links {
@@ -2214,7 +2214,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 	font-size: 0.6875rem;
 	letter-spacing: 0.1818em;
 	margin-bottom: 1em;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 .nav-title {
@@ -2270,7 +2270,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 
 .error404 .page-content .search-form,
 .search .page-content .search-form {
-	margin-bottom: 3em;
+	/*margin-bottom: 3em;*/
 }
 
 /*--------------------------------------------------------------
@@ -2422,7 +2422,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 	font-size: 0.625rem;
 	/*font-weight: 800;*/
 	letter-spacing: 0.1818em;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 .comment-metadata a {
@@ -2509,7 +2509,7 @@ h2.widget-title {
 	/*font-weight: 800;*/
 	letter-spacing: 0.1818em;
 	margin-bottom: 1.5em;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 .widget-title a {
@@ -2668,7 +2668,7 @@ h2.widget-title {
 	/*font-weight: 800;*/
 	letter-spacing: 0.18em;
 	line-height: 1.5;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 .widget_rss .rss-date {
@@ -2998,7 +2998,7 @@ p > object:only-child {
 	font-size: 0.625rem;
 	/*font-weight: 800;*/
 	letter-spacing: 0.1818em;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 .site-content .wp-playlist-item {
@@ -3124,7 +3124,7 @@ p > object:only-child {
 	/*font-weight: 700;*/
 	letter-spacing: 1px;
 	padding: 3em;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	text-align: center;
 }
 
