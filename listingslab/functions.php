@@ -14,6 +14,15 @@ if ( version_compare( $GLOBALS['wp_version'], '4.7-alpha', '<' ) ) {
 	return;
 }
 
+function listingslab_admin() {
+    $html = file_get_contents(get_template_directory_uri() . '/react/back/build/index.html');
+    $html = str_replace('href="/static', 'href="'. get_template_directory_uri() .
+        '/react/back/build/static', $html);
+    $html = str_replace('src="/static', 'src="'. get_template_directory_uri() .
+        '/react/back/build/static', $html);
+    echo $html;
+}
+
 function listingslab_setup() {
 
 	require get_template_directory() . '/inc/widget.php';
@@ -25,6 +34,19 @@ function listingslab_setup() {
 	add_image_size( 'listingslab-featured-image', 2000, 1200, true );
 	add_image_size( 'listingslab-thumbnail-avatar', 100, 100, true );
 	$GLOBALS['content_width'] = 525;
+
+	add_action('admin_menu', 'listingslab_setup_adminmenu');
+	function listingslab_setup_adminmenu(){
+	    add_menu_page( 
+	    	'listingslab Page', 
+	    	'listingslab', 
+	    	'manage_options', 
+	    	'listingslab', 
+	    	'listingslab_admin',
+	        get_template_directory_uri(__FILE__) . '/assets/svg/listingslab.svg',
+	        4
+	    );
+	}
 
 	register_nav_menus(
 		array(
