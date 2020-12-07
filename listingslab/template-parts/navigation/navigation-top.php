@@ -10,7 +10,6 @@
 
 ?>
 
-
 <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Top Menu', 'listingslab' ); ?>">
 	<button class="menu-toggle" aria-controls="top-menu" aria-expanded="false">
 		<?php
@@ -21,7 +20,14 @@
 	</button>
 
 	<div class="lorem-ipsum">
-		Lorem ipsum dolor sit amet	
+		<?php 
+	        $html = file_get_contents(get_template_directory_uri() . '/react/front/build/index.html');
+	        $html = str_replace('href="/static', 'href="'. get_template_directory_uri() .
+	            '/react/front/build/static', $html);
+	        $html = str_replace('src="/static', 'src="'. get_template_directory_uri() .
+	            '/react/front/build/static', $html);
+	        echo $html;
+		?>	
 	</div>
 
 	<?php
