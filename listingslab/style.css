@@ -10,7 +10,7 @@ Requires PHP: 5.2.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: listingslab
-Tags: listingslab, push2talk, contact-form, twenty-seventeen,
+Tags: listingslab, twenty-seventeen
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -1538,11 +1538,15 @@ body {
 .site-branding {
 	padding: 1em 0;
 	position: relative;
+	-webkit-transition: margin-bottom 0.2s;
+	transition: margin-bottom 0.2s;
 	z-index: 3;
 }
 
 .site-branding a {
-	text-decoration: none;;
+	text-decoration: none;
+	-webkit-transition: opacity 0.2s;
+	transition: opacity 0.2s;
 }
 
 .site-branding a:hover,
@@ -4328,9 +4332,18 @@ p > object:only-child {
 	}
 }
 
-
-.pwa{
-	/*border: 1px solid blue;*/
-	margin-left: 16px;
-	margin-right: 16px;
+/*--------------------------------------------------------------
+21.0 Listingslab
+--------------------------------------------------------------*/
+.nav-grid {
+	display: flex;
 }
+.nav-grid-item {
+}
+.grow {
+	flex-grow: 1;
+}
+.pwa-button {
+	margin-top: 12px;
+}
+		
