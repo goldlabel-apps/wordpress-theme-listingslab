@@ -1538,15 +1538,11 @@ body {
 .site-branding {
 	padding: 1em 0;
 	position: relative;
-	-webkit-transition: margin-bottom 0.2s;
-	transition: margin-bottom 0.2s;
 	z-index: 3;
 }
 
 .site-branding a {
-	text-decoration: none;
-	-webkit-transition: opacity 0.2s;
-	transition: opacity 0.2s;
+	text-decoration: none;;
 }
 
 .site-branding a:hover,
@@ -4330,4 +4326,11 @@ p > object:only-child {
 	.site-footer {
 		padding: 0;
 	}
+}
+
+
+.lorem-ipsum{
+	/*border: 1px solid blue;*/
+	margin-left: 16px;
+	margin-right: 16px;
 }

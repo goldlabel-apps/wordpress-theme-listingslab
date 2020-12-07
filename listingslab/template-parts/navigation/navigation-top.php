@@ -20,6 +20,10 @@
 		?>
 	</button>
 
+	<div class="lorem-ipsum">
+		Lorem ipsum dolor sit amet	
+	</div>
+
 	<?php
 	wp_nav_menu(
 		array(
@@ -31,6 +35,7 @@
 	<?php if ( ( listingslab_is_frontpage() || ( is_home() && is_front_page() ) ) && has_custom_header() ) : ?>
 		<a href="#content" class="menu-scroll-down"><?php echo listingslab_get_svg( array( 'icon' => 'arrow-right' ) ); ?><span class="screen-reader-text"><?php _e( 'Scroll down to content', 'listingslab' ); ?></span></a>
 	<?php endif; ?>
+	
 
 	
 

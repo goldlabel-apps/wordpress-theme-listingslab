@@ -30,6 +30,7 @@
 				?>
 				<p class="site-description"><?php echo $description; ?></p>
 			<?php endif; ?>
+			
 		</div><!-- .site-branding-text -->
 
 		<?php if ( ( listingslab_is_frontpage() || ( is_home() && is_front_page() ) ) && ! has_nav_menu( 'top' ) ) : ?>
